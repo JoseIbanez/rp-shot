@@ -19,5 +19,5 @@
 
 
 */5    04-21 * * * /home/pi/rp-shot/ts.sh       /dev/null 2>&1
-2-59/1 00-21 * * * /home/pi/rp-shot/sync.sh     /dev/null 2>&1
+2-59/5 04-21 * * * /home/pi/rp-shot/sync.sh     /dev/null 2>&1
 3      04-20 * * * /home/pi/rp-shot/purge.sh    /dev/null 2>&1
