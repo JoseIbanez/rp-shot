@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find /media/pic/ -mmin +3000 -delete
+find /media/pic/ -mmin +1000 -delete
