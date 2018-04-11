@@ -1,4 +1,8 @@
 #!/bin/bash
 
-/usr/local/bin/aws s3 sync /media/pic/ s3://ibanez.j/pic/p2/ --storage-class REDUCED_REDUNDANCY  >> /tmp/sync.log 2>&1
+#AWS
+#/usr/local/bin/aws s3 sync /media/pic/ s3://ibanez.j/pic/p2/ --storage-class REDUCED_REDUNDANCY  >> /tmp/sync.log 2>&1
 
+
+#h2
+rsync -avz ssh /media/pic/ h2:/mnt/tmp/nk/
