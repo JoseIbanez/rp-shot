@@ -5,4 +5,4 @@
 
 
 #h2
-rsync -avz /media/pic/ h2:/mnt/tmp/nk/
+rsync -avz /media/pic/ h2:/mnt/d2/tl/tmp/
