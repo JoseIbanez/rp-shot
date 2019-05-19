@@ -1,5 +1,9 @@
 #!/bin/bash
 
+scriptHome=/home/ibanez/Projects/rp-shot
+
+cd $scriptHome
+
 rm -f /tmp/*.jpg
 
 ofile=`find /mnt/d2/tl/201905-Albahaca/ -mmin -30 -name "a300*" | tail -n 1`
