@@ -24,7 +24,7 @@ sudo gphoto2 --camera "Nikon DSC D5300" --set-config /main/capturesettings/image
 sudo gphoto2 --camera "Nikon DSC D5300" --set-config /main/capturesettings/flashmode=0
 
 
-cd /mnt/d2/tl/201909-Pino
+cd /mnt/d2/tl/201911-Encina
 echo "Capture D5300"
 sudo gphoto2 --capture-image-and-download --camera "Nikon DSC D5300"        --filename 'd5300-%Y%m%d-%H%M%S.jpg'
 
@@ -36,8 +36,8 @@ sudo gphoto2 --capture-image-and-download --camera "Nikon DSC D5300"        --fi
 #sleep 1
 
 #echo "Webcam"
-#name=`date  +webcam-%Y%m%d-%H%M%S.jpg`
-#fswebcam -r 1920x1080 $name
+name=`date  +webcam-%Y%m%d-%H%M%S.jpg`
+fswebcam -r 1920x1080 $name
 
 
 mosquitto_pub -h 192.168.1.19 -t $topic -m "0000;0000"
