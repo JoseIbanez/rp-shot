@@ -5,7 +5,8 @@ cd /home/ibanez/Projects/rp-shot/
 
 old=""
 #topic="q/ESP3C71BF51A064"
-topic="q/ESP60019440E6.."
+#topic="q/ESP60019440E6.."
+topic="q/ESPCC50E3C4981E"
 
 echo "Turn on the lights"
 mosquitto_pub -h 192.168.1.19 -t  $topic -m "0001;1111"
@@ -22,7 +23,11 @@ sleep 5
 #sudo gphoto2 --camera "Nikon DSC D5300" --set-config /main/capturesettings/flashmode=0
 
 
-cd /mnt/pic/tl/201912-Nogal
+photoPath="/mnt/pic/tl/202004-Gema"
+
+mkdir -p $photoPath
+cd $photoPath
+
 #echo "Capture D5300"
 #sudo gphoto2 --capture-image-and-download --camera "Nikon DSC D5300"        --filename 'd5300-%Y%m%d-%H%M%S.jpg'
 
