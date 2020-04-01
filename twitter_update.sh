@@ -6,10 +6,11 @@ cd $scriptHome
 
 rm -f /tmp/*.jpg
 
-ofile=`find /mnt/d2/tl/201911-Encina/ -mmin -30 -name "a300*" | tail -n 1`
+
+ofile=`find /mnt/d2/tl/201911-Nuez/ -mmin -30 -name "a300*" | tail -n 1`
 convert $ofile -quality 80 /tmp/a300.jpg
 
-ofile=`find /mnt/d2/tl/201911-Encina/ -mmin -30 -name "d5300*" | tail -n 1`
+ofile=`find /mnt/d2/tl/201911-Nuez/ -mmin -30 -name "d5300*" | tail -n 1`
 convert $ofile -quality 80 /tmp/d5300.jpg
 
 ls -lh /tmp/a300.jpg
