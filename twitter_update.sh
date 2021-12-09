@@ -6,14 +6,14 @@ cd $scriptHome
 
 rm -f /tmp/*.jpg
 
-title1="TL A300 Aguacate"
-path1="/mnt/d2/tl/202006-Aguacate3"
+title1="TL A300 Roble"
+path1="/mnt/d2/tl/202112-Roble/"
 
 
-ofile=`find "$path1" -mmin -30 -name "a300*" | tail -n 1`
+ofile=`find "$path1" -mmin -30 -name "a300b*" | tail -n 1`
 convert $ofile -quality 80 /tmp/a300.jpg
 
-ofile=`find /mnt/d2/tl/201911-Nuez/ -mmin -30 -name "d5300*" | tail -n 1`
+ofile=`find /mnt/d2/tl/202112-Roble/ -mmin -30 -name "d5300*" | tail -n 1`
 convert $ofile -quality 80 /tmp/d5300.jpg
 
 ls -lh /tmp/a300.jpg
