@@ -100,7 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
-
+# intagram config folder
+config/
 
 .vscode/
 

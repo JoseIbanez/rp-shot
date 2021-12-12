@@ -23,4 +23,5 @@ ls -lh /tmp/d5300.jpg
 ./twitter_upload.py -text "$title1" -file  /tmp/a300.jpg
 sleep 10
 ./twitter_upload.py -text "TL D5300 Roble" -file  /tmp/d5300.jpg
+./instagram_upload.py -text "TL D5300 Roble" -file /tmp/d5300.jpg
 
