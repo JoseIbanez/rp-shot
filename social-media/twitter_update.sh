@@ -1,6 +1,7 @@
 #!/bin/bash
 
-scriptHome=/home/ibanez/Projects/rp-shot
+scriptHome=~/Projects/rp-shot/social-media/
+source ~/py-venv/bin/activate
 
 cd $scriptHome
 
@@ -20,7 +21,8 @@ ls -lh /tmp/a300.jpg
 ls -lh /tmp/d5300.jpg
 
 
-./twitter_upload.py -text "$title1" -file  /tmp/d5300.jpg
+./twitter_upload.py   -text "$title1" -file  /tmp/d5300.jpg
+./mastodon_upload.py  -text "$title1" -file  /tmp/d5300.jpg
 #sleep 10
 #./twitter_upload.py -text "TL D5300 Roble" -file  /tmp/d5300.jpg
 #./instagram_upload.py -text "TL D5300 Roble" -file /tmp/d5300.jpg
