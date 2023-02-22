@@ -8,10 +8,10 @@ old=""
 #topic="q/ESP60019440E65A"
 topic="q/ESP2C3AE8128E75"
 
-export photoPath_D5300=/mnt/d2/tl/202301-Roble
-export photoPath_A300Black=/mnt/d2/tl/202301-Black
-export photoPath_A300Red=/mnt/d2/tl/202301-Red
-export photoPath_WebCam=/mnt/d2/tl/202301-WebCam
+export photoPath_D5300=/mnt/d2/tl/202302-Roble
+export photoPath_A300Black=/mnt/d2/tl/202302-Black
+export photoPath_A300Red=/mnt/d2/tl/202302-Red
+export photoPath_WebCam=/mnt/d2/tl/202302-WebCam
 
 
 

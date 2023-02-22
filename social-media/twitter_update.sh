@@ -8,7 +8,7 @@ cd $scriptHome
 rm -f /tmp/*.jpg
 
 title1="TL D5300 Roble"
-path1="/mnt/d2/tl/202301-Roble/"
+path1="/mnt/d2/tl/202302-Roble/"
 path2="/mnt/d2/tl/202112-Roble/"
 
 ofile=`find "$path1" -mmin -30 -name "a300b*" | tail -n 1`
